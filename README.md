@@ -110,7 +110,7 @@ For the random forest, 2 models were compared with each other, one with countvec
 |Random Forest|Tfidf Vectorizer|0.877125|0.835738|0.829644|0.912959|0.747126|
 |Random Forest|Count Vectorizer|0.862368|0.830282|0.833494|0.920696|0.747126|
 
-Similar to the parametric model, 4 additional predictors were added to the model to improve the accuracy score by ~15% between model 1 and model 2.
+Similar to the parametric model, 4 additional predictors were added to the model to improve the accuracy score by ~15% between model 1 and model 6.
 - selftext
 - link_flair_text
 - author_fullname
