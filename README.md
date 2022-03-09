@@ -144,9 +144,9 @@ It is possible to use data from the subreddit posts to infer which subreddit the
 ### Potential Improvements
 As the reason this current production model is showing very high accuracy is due to the significant difference between the whitelist_status of the 2 subreddit chosen, when training model for other subreddits, we could:-
 - Include comments from each subreddit post
-- author_flair_richtext if the usage rate is high for other subreddits
-- Increasing the amount of dataset used for training
-- Checking if there are images in the post
+- Include author_flair_richtext if the usage rate is high for other subreddits
+- Increase the amount of dataset used for training
+- Check if there are images in the post
     - Certain subreddits tend to have more image in post
     
     
